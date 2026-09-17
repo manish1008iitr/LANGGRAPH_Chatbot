@@ -1,5 +1,4 @@
 langchain
-langgraph 
-fastapi 
+langgraph  
 langchain-ollama
 streamlit
