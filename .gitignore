@@ -3,6 +3,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+#Pactice files 
+practice.ipynb
+
+
 # C extensions
 *.so
 
