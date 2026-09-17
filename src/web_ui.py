@@ -1,5 +1,8 @@
 import streamlit as st
 import requests
+from backend_llm import Response_generator
+
+response_gen = Response_generator()
 
 st.set_page_config(
     page_title="LangGraph Chatbot")
@@ -15,5 +18,5 @@ user_input = st.text_input("Ask me anything about UPSC facts", placeholder="Type
 
 if user_input:
     st.write("You asked:", user_input)
-    response = f"You asked about: {user_input}. I will soon connect you to a LLM agent."
-    st.write("Response:", response)
+    response = response_gen.generate_response(user_input)
+    st.write("Response:", response.content)
