@@ -1,5 +1,4 @@
 import streamlit as st
-import requests
 from backend_llm import Response_generator
 
 response_gen = Response_generator()
@@ -11,7 +10,7 @@ st.title("SIMPLE CHATBOT ON UPSC FACTS")
 
 
 # ***************** TAKING USER INPUT *****************
-user_input = st.text_input("Ask me anything about UPSC facts", placeholder="Type your question here...")    
+user_input = st.text_input("")    
 
 
 # ***************** DISPLAYING USER INPUT ****************
@@ -19,4 +18,6 @@ user_input = st.text_input("Ask me anything about UPSC facts", placeholder="Type
 if user_input:
     st.write("You asked:", user_input)
     response = response_gen.generate_response(user_input)
-    st.write("Response:", response.content)
+    st.write("Response:", response[-1].content)
+
+
