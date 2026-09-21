@@ -6,6 +6,7 @@ yaml
 pathlib
 streamlit
 dotenv
+pymupdf4llm
 pprint
 fastapi 
 uvicorn
