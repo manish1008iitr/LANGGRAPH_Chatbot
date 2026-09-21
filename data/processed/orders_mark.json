@@ -1,0 +1,402 @@
+[
+    {
+        "chunk_id": 1,
+        "page_content": "order_id: ORD20260001\ncustomer_id: CUST1002\ncustomer_name: Priya Verma\ncustomer_email: priya@example.com\nproduct_id: P1001\nproduct_name: Wireless Bluetooth Headphones\ncategory: Electronics\nquantity: 3\nunit_price_inr: 2499\ndiscount_inr: 50\nshipping_fee_inr: 0\ntotal_amount_inr: 7447\norder_date: 2026-08-15\norder_status: Shipped\npayment_method: UPI\npayment_status: Paid\ndelivery_city: Delhi\nestimated_delivery_date: 2026-08-22\nactual_delivery_date: \ntracking_id: TRK66629388\nreturn_eligible: No\nsupport_notes: Shipment in transit",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 0
+        }
+    },
+    {
+        "chunk_id": 2,
+        "page_content": "order_id: ORD20260002\ncustomer_id: CUST1001\ncustomer_name: Aarav Sharma\ncustomer_email: aarav@example.com\nproduct_id: P1001\nproduct_name: Wireless Bluetooth Headphones\ncategory: Electronics\nquantity: 1\nunit_price_inr: 2499\ndiscount_inr: 0\nshipping_fee_inr: 0\ntotal_amount_inr: 2499\norder_date: 2026-09-02\norder_status: Returned\npayment_method: Cash on Delivery\npayment_status: Refunded\ndelivery_city: Lucknow\nestimated_delivery_date: 2026-09-10\nactual_delivery_date: 2026-09-04\ntracking_id: TRK97226012\nreturn_eligible: No\nsupport_notes: Return received and refund processed",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 1
+        }
+    },
+    {
+        "chunk_id": 3,
+        "page_content": "order_id: ORD20260003\ncustomer_id: CUST1007\ncustomer_name: Aditya Joshi\ncustomer_email: aditya@example.com\nproduct_id: P1004\nproduct_name: Cotton Casual T-Shirt\ncategory: Fashion\nquantity: 2\nunit_price_inr: 799\ndiscount_inr: 150\nshipping_fee_inr: 49\ntotal_amount_inr: 1497\norder_date: 2026-08-01\norder_status: Shipped\npayment_method: Net Banking\npayment_status: Paid\ndelivery_city: Pune\nestimated_delivery_date: 2026-08-06\nactual_delivery_date: \ntracking_id: TRK30868105\nreturn_eligible: No\nsupport_notes: Shipment in transit",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 2
+        }
+    },
+    {
+        "chunk_id": 4,
+        "page_content": "order_id: ORD20260004\ncustomer_id: CUST1004\ncustomer_name: Ananya Singh\ncustomer_email: ananya@example.com\nproduct_id: P1006\nproduct_name: Stainless Steel Water Bottle\ncategory: Home & Kitchen\nquantity: 1\nunit_price_inr: 699\ndiscount_inr: 0\nshipping_fee_inr: 79\ntotal_amount_inr: 778\norder_date: 2026-08-07\norder_status: Processing\npayment_method: Debit Card\npayment_status: Paid\ndelivery_city: Jaipur\nestimated_delivery_date: 2026-08-10\nactual_delivery_date: \ntracking_id: TRK71662963\nreturn_eligible: No\nsupport_notes: Order is being prepared",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 3
+        }
+    },
+    {
+        "chunk_id": 5,
+        "page_content": "order_id: ORD20260005\ncustomer_id: CUST1002\ncustomer_name: Priya Verma\ncustomer_email: priya@example.com\nproduct_id: P1007\nproduct_name: Laptop Backpack\ncategory: Accessories\nquantity: 1\nunit_price_inr: 1499\ndiscount_inr: 150\nshipping_fee_inr: 49\ntotal_amount_inr: 1398\norder_date: 2026-09-10\norder_status: Returned\npayment_method: Cash on Delivery\npayment_status: Refunded\ndelivery_city: Lucknow\nestimated_delivery_date: 2026-09-18\nactual_delivery_date: 2026-09-14\ntracking_id: TRK19335534\nreturn_eligible: No\nsupport_notes: Return received and refund processed",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 4
+        }
+    },
+    {
+        "chunk_id": 6,
+        "page_content": "order_id: ORD20260006\ncustomer_id: CUST1001\ncustomer_name: Aarav Sharma\ncustomer_email: aarav@example.com\nproduct_id: P1004\nproduct_name: Cotton Casual T-Shirt\ncategory: Fashion\nquantity: 2\nunit_price_inr: 799\ndiscount_inr: 0\nshipping_fee_inr: 0\ntotal_amount_inr: 1598\norder_date: 2026-08-07\norder_status: Cancelled\npayment_method: Debit Card\npayment_status: Refunded\ndelivery_city: Hyderabad\nestimated_delivery_date: 2026-08-15\nactual_delivery_date: \ntracking_id: \nreturn_eligible: No\nsupport_notes: Order cancelled and refund initiated",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 5
+        }
+    },
+    {
+        "chunk_id": 7,
+        "page_content": "order_id: ORD20260007\ncustomer_id: CUST1006\ncustomer_name: Neha Kapoor\ncustomer_email: neha@example.com\nproduct_id: P1003\nproduct_name: Smart Fitness Band\ncategory: Wearables\nquantity: 2\nunit_price_inr: 1999\ndiscount_inr: 50\nshipping_fee_inr: 0\ntotal_amount_inr: 3948\norder_date: 2026-09-12\norder_status: Processing\npayment_method: UPI\npayment_status: Paid\ndelivery_city: Noida\nestimated_delivery_date: 2026-09-19\nactual_delivery_date: \ntracking_id: TRK42857966\nreturn_eligible: No\nsupport_notes: Order is being prepared",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 6
+        }
+    },
+    {
+        "chunk_id": 8,
+        "page_content": "order_id: ORD20260008\ncustomer_id: CUST1003\ncustomer_name: Rohan Mehta\ncustomer_email: rohan@example.com\nproduct_id: P1008\nproduct_name: LED Study Lamp\ncategory: Home & Kitchen\nquantity: 2\nunit_price_inr: 1199\ndiscount_inr: 50\nshipping_fee_inr: 0\ntotal_amount_inr: 2348\norder_date: 2026-09-13\norder_status: Processing\npayment_method: UPI\npayment_status: Paid\ndelivery_city: Lucknow\nestimated_delivery_date: 2026-09-16\nactual_delivery_date: \ntracking_id: TRK52339391\nreturn_eligible: No\nsupport_notes: Order is being prepared",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 7
+        }
+    },
+    {
+        "chunk_id": 9,
+        "page_content": "order_id: ORD20260009\ncustomer_id: CUST1007\ncustomer_name: Aditya Joshi\ncustomer_email: aditya@example.com\nproduct_id: P1005\nproduct_name: Running Shoes\ncategory: Fashion\nquantity: 1\nunit_price_inr: 2299\ndiscount_inr: 0\nshipping_fee_inr: 49\ntotal_amount_inr: 2348\norder_date: 2026-08-14\norder_status: Cancelled\npayment_method: Net Banking\npayment_status: Refunded\ndelivery_city: Hyderabad\nestimated_delivery_date: 2026-08-18\nactual_delivery_date: \ntracking_id: \nreturn_eligible: No\nsupport_notes: Order cancelled and refund initiated",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 8
+        }
+    },
+    {
+        "chunk_id": 10,
+        "page_content": "order_id: ORD20260010\ncustomer_id: CUST1005\ncustomer_name: Vikram Gupta\ncustomer_email: vikram@example.com\nproduct_id: P1003\nproduct_name: Smart Fitness Band\ncategory: Wearables\nquantity: 1\nunit_price_inr: 1999\ndiscount_inr: 200\nshipping_fee_inr: 49\ntotal_amount_inr: 1848\norder_date: 2026-09-17\norder_status: Returned\npayment_method: Cash on Delivery\npayment_status: Refunded\ndelivery_city: Bengaluru\nestimated_delivery_date: 2026-09-22\nactual_delivery_date: 2026-09-22\ntracking_id: TRK39436733\nreturn_eligible: No\nsupport_notes: Return received and refund processed",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 9
+        }
+    },
+    {
+        "chunk_id": 11,
+        "page_content": "order_id: ORD20260011\ncustomer_id: CUST1003\ncustomer_name: Rohan Mehta\ncustomer_email: rohan@example.com\nproduct_id: P1009\nproduct_name: Smartphone Stand\ncategory: Accessories\nquantity: 2\nunit_price_inr: 499\ndiscount_inr: 0\nshipping_fee_inr: 0\ntotal_amount_inr: 998\norder_date: 2026-08-08\norder_status: Shipped\npayment_method: Credit Card\npayment_status: Paid\ndelivery_city: Bengaluru\nestimated_delivery_date: 2026-08-15\nactual_delivery_date: \ntracking_id: TRK18526544\nreturn_eligible: No\nsupport_notes: Shipment in transit",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 10
+        }
+    },
+    {
+        "chunk_id": 12,
+        "page_content": "order_id: ORD20260012\ncustomer_id: CUST1007\ncustomer_name: Aditya Joshi\ncustomer_email: aditya@example.com\nproduct_id: P1007\nproduct_name: Laptop Backpack\ncategory: Accessories\nquantity: 3\nunit_price_inr: 1499\ndiscount_inr: 100\nshipping_fee_inr: 49\ntotal_amount_inr: 4446\norder_date: 2026-09-05\norder_status: Delivered\npayment_method: UPI\npayment_status: Paid\ndelivery_city: Jaipur\nestimated_delivery_date: 2026-09-13\nactual_delivery_date: 2026-09-12\ntracking_id: TRK55657579\nreturn_eligible: Yes\nsupport_notes: Order delivered successfully",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 11
+        }
+    },
+    {
+        "chunk_id": 13,
+        "page_content": "order_id: ORD20260013\ncustomer_id: CUST1002\ncustomer_name: Priya Verma\ncustomer_email: priya@example.com\nproduct_id: P1005\nproduct_name: Running Shoes\ncategory: Fashion\nquantity: 2\nunit_price_inr: 2299\ndiscount_inr: 0\nshipping_fee_inr: 79\ntotal_amount_inr: 4677\norder_date: 2026-08-01\norder_status: Processing\npayment_method: Cash on Delivery\npayment_status: Paid\ndelivery_city: Noida\nestimated_delivery_date: 2026-08-08\nactual_delivery_date: \ntracking_id: TRK24282218\nreturn_eligible: No\nsupport_notes: Order is being prepared",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 12
+        }
+    },
+    {
+        "chunk_id": 14,
+        "page_content": "order_id: ORD20260014\ncustomer_id: CUST1005\ncustomer_name: Vikram Gupta\ncustomer_email: vikram@example.com\nproduct_id: P1009\nproduct_name: Smartphone Stand\ncategory: Accessories\nquantity: 3\nunit_price_inr: 499\ndiscount_inr: 0\nshipping_fee_inr: 0\ntotal_amount_inr: 1497\norder_date: 2026-08-24\norder_status: Shipped\npayment_method: Cash on Delivery\npayment_status: Paid\ndelivery_city: Ghaziabad\nestimated_delivery_date: 2026-08-31\nactual_delivery_date: \ntracking_id: TRK53507489\nreturn_eligible: No\nsupport_notes: Shipment in transit",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 13
+        }
+    },
+    {
+        "chunk_id": 15,
+        "page_content": "order_id: ORD20260015\ncustomer_id: CUST1008\ncustomer_name: Ishita Rao\ncustomer_email: ishita@example.com\nproduct_id: P1001\nproduct_name: Wireless Bluetooth Headphones\ncategory: Electronics\nquantity: 1\nunit_price_inr: 2499\ndiscount_inr: 50\nshipping_fee_inr: 49\ntotal_amount_inr: 2498\norder_date: 2026-08-16\norder_status: Delivered\npayment_method: Cash on Delivery\npayment_status: Paid\ndelivery_city: Delhi\nestimated_delivery_date: 2026-08-19\nactual_delivery_date: 2026-08-19\ntracking_id: TRK75228535\nreturn_eligible: Yes\nsupport_notes: Order delivered successfully",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 14
+        }
+    },
+    {
+        "chunk_id": 16,
+        "page_content": "order_id: ORD20260016\ncustomer_id: CUST1002\ncustomer_name: Priya Verma\ncustomer_email: priya@example.com\nproduct_id: P1009\nproduct_name: Smartphone Stand\ncategory: Accessories\nquantity: 1\nunit_price_inr: 499\ndiscount_inr: 0\nshipping_fee_inr: 79\ntotal_amount_inr: 578\norder_date: 2026-09-05\norder_status: Shipped\npayment_method: Debit Card\npayment_status: Paid\ndelivery_city: Bengaluru\nestimated_delivery_date: 2026-09-09\nactual_delivery_date: \ntracking_id: TRK82383095\nreturn_eligible: No\nsupport_notes: Shipment in transit",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 15
+        }
+    },
+    {
+        "chunk_id": 17,
+        "page_content": "order_id: ORD20260017\ncustomer_id: CUST1004\ncustomer_name: Ananya Singh\ncustomer_email: ananya@example.com\nproduct_id: P1005\nproduct_name: Running Shoes\ncategory: Fashion\nquantity: 2\nunit_price_inr: 2299\ndiscount_inr: 200\nshipping_fee_inr: 49\ntotal_amount_inr: 4447\norder_date: 2026-08-29\norder_status: Returned\npayment_method: UPI\npayment_status: Refunded\ndelivery_city: Lucknow\nestimated_delivery_date: 2026-09-02\nactual_delivery_date: 2026-09-03\ntracking_id: TRK18593410\nreturn_eligible: No\nsupport_notes: Return received and refund processed",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 16
+        }
+    },
+    {
+        "chunk_id": 18,
+        "page_content": "order_id: ORD20260018\ncustomer_id: CUST1006\ncustomer_name: Neha Kapoor\ncustomer_email: neha@example.com\nproduct_id: P1001\nproduct_name: Wireless Bluetooth Headphones\ncategory: Electronics\nquantity: 3\nunit_price_inr: 2499\ndiscount_inr: 150\nshipping_fee_inr: 0\ntotal_amount_inr: 7347\norder_date: 2026-09-07\norder_status: Shipped\npayment_method: UPI\npayment_status: Paid\ndelivery_city: Delhi\nestimated_delivery_date: 2026-09-15\nactual_delivery_date: \ntracking_id: TRK94705205\nreturn_eligible: No\nsupport_notes: Shipment in transit",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 17
+        }
+    },
+    {
+        "chunk_id": 19,
+        "page_content": "order_id: ORD20260019\ncustomer_id: CUST1001\ncustomer_name: Aarav Sharma\ncustomer_email: aarav@example.com\nproduct_id: P1004\nproduct_name: Cotton Casual T-Shirt\ncategory: Fashion\nquantity: 1\nunit_price_inr: 799\ndiscount_inr: 0\nshipping_fee_inr: 49\ntotal_amount_inr: 848\norder_date: 2026-08-05\norder_status: Returned\npayment_method: Debit Card\npayment_status: Refunded\ndelivery_city: Hyderabad\nestimated_delivery_date: 2026-08-09\nactual_delivery_date: 2026-08-08\ntracking_id: TRK82374753\nreturn_eligible: No\nsupport_notes: Return received and refund processed",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 18
+        }
+    },
+    {
+        "chunk_id": 20,
+        "page_content": "order_id: ORD20260020\ncustomer_id: CUST1003\ncustomer_name: Rohan Mehta\ncustomer_email: rohan@example.com\nproduct_id: P1010\nproduct_name: USB-C Fast Charger\ncategory: Electronics\nquantity: 3\nunit_price_inr: 1299\ndiscount_inr: 100\nshipping_fee_inr: 0\ntotal_amount_inr: 3797\norder_date: 2026-09-20\norder_status: Cancelled\npayment_method: Net Banking\npayment_status: Refunded\ndelivery_city: Lucknow\nestimated_delivery_date: 2026-09-23\nactual_delivery_date: \ntracking_id: \nreturn_eligible: No\nsupport_notes: Order cancelled and refund initiated",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 19
+        }
+    },
+    {
+        "chunk_id": 21,
+        "page_content": "order_id: ORD20260021\ncustomer_id: CUST1002\ncustomer_name: Priya Verma\ncustomer_email: priya@example.com\nproduct_id: P1007\nproduct_name: Laptop Backpack\ncategory: Accessories\nquantity: 2\nunit_price_inr: 1499\ndiscount_inr: 100\nshipping_fee_inr: 79\ntotal_amount_inr: 2977\norder_date: 2026-08-30\norder_status: Delivered\npayment_method: UPI\npayment_status: Paid\ndelivery_city: Ghaziabad\nestimated_delivery_date: 2026-09-05\nactual_delivery_date: 2026-09-06\ntracking_id: TRK55540424\nreturn_eligible: Yes\nsupport_notes: Order delivered successfully",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 20
+        }
+    },
+    {
+        "chunk_id": 22,
+        "page_content": "order_id: ORD20260022\ncustomer_id: CUST1002\ncustomer_name: Priya Verma\ncustomer_email: priya@example.com\nproduct_id: P1004\nproduct_name: Cotton Casual T-Shirt\ncategory: Fashion\nquantity: 1\nunit_price_inr: 799\ndiscount_inr: 0\nshipping_fee_inr: 79\ntotal_amount_inr: 878\norder_date: 2026-08-09\norder_status: Cancelled\npayment_method: Credit Card\npayment_status: Refunded\ndelivery_city: Jaipur\nestimated_delivery_date: 2026-08-15\nactual_delivery_date: \ntracking_id: \nreturn_eligible: No\nsupport_notes: Order cancelled and refund initiated",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 21
+        }
+    },
+    {
+        "chunk_id": 23,
+        "page_content": "order_id: ORD20260023\ncustomer_id: CUST1004\ncustomer_name: Ananya Singh\ncustomer_email: ananya@example.com\nproduct_id: P1002\nproduct_name: Mechanical Keyboard\ncategory: Electronics\nquantity: 2\nunit_price_inr: 3499\ndiscount_inr: 150\nshipping_fee_inr: 0\ntotal_amount_inr: 6848\norder_date: 2026-08-04\norder_status: Returned\npayment_method: UPI\npayment_status: Refunded\ndelivery_city: Lucknow\nestimated_delivery_date: 2026-08-08\nactual_delivery_date: 2026-08-06\ntracking_id: TRK64547971\nreturn_eligible: No\nsupport_notes: Return received and refund processed",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 22
+        }
+    },
+    {
+        "chunk_id": 24,
+        "page_content": "order_id: ORD20260024\ncustomer_id: CUST1008\ncustomer_name: Ishita Rao\ncustomer_email: ishita@example.com\nproduct_id: P1008\nproduct_name: LED Study Lamp\ncategory: Home & Kitchen\nquantity: 1\nunit_price_inr: 1199\ndiscount_inr: 100\nshipping_fee_inr: 0\ntotal_amount_inr: 1099\norder_date: 2026-08-11\norder_status: Cancelled\npayment_method: UPI\npayment_status: Refunded\ndelivery_city: Bengaluru\nestimated_delivery_date: 2026-08-16\nactual_delivery_date: \ntracking_id: \nreturn_eligible: No\nsupport_notes: Order cancelled and refund initiated",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 23
+        }
+    },
+    {
+        "chunk_id": 25,
+        "page_content": "order_id: ORD20260025\ncustomer_id: CUST1008\ncustomer_name: Ishita Rao\ncustomer_email: ishita@example.com\nproduct_id: P1005\nproduct_name: Running Shoes\ncategory: Fashion\nquantity: 2\nunit_price_inr: 2299\ndiscount_inr: 200\nshipping_fee_inr: 79\ntotal_amount_inr: 4477\norder_date: 2026-08-10\norder_status: Shipped\npayment_method: Debit Card\npayment_status: Paid\ndelivery_city: Lucknow\nestimated_delivery_date: 2026-08-13\nactual_delivery_date: \ntracking_id: TRK87736262\nreturn_eligible: No\nsupport_notes: Shipment in transit",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 24
+        }
+    },
+    {
+        "chunk_id": 26,
+        "page_content": "order_id: ORD20260026\ncustomer_id: CUST1001\ncustomer_name: Aarav Sharma\ncustomer_email: aarav@example.com\nproduct_id: P1006\nproduct_name: Stainless Steel Water Bottle\ncategory: Home & Kitchen\nquantity: 1\nunit_price_inr: 699\ndiscount_inr: 0\nshipping_fee_inr: 79\ntotal_amount_inr: 778\norder_date: 2026-09-02\norder_status: Returned\npayment_method: UPI\npayment_status: Refunded\ndelivery_city: Delhi\nestimated_delivery_date: 2026-09-06\nactual_delivery_date: 2026-09-05\ntracking_id: TRK19196777\nreturn_eligible: No\nsupport_notes: Return received and refund processed",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 25
+        }
+    },
+    {
+        "chunk_id": 27,
+        "page_content": "order_id: ORD20260027\ncustomer_id: CUST1002\ncustomer_name: Priya Verma\ncustomer_email: priya@example.com\nproduct_id: P1004\nproduct_name: Cotton Casual T-Shirt\ncategory: Fashion\nquantity: 2\nunit_price_inr: 799\ndiscount_inr: 0\nshipping_fee_inr: 0\ntotal_amount_inr: 1598\norder_date: 2026-09-07\norder_status: Returned\npayment_method: Cash on Delivery\npayment_status: Refunded\ndelivery_city: Delhi\nestimated_delivery_date: 2026-09-13\nactual_delivery_date: 2026-09-09\ntracking_id: TRK98231132\nreturn_eligible: No\nsupport_notes: Return received and refund processed",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 26
+        }
+    },
+    {
+        "chunk_id": 28,
+        "page_content": "order_id: ORD20260028\ncustomer_id: CUST1006\ncustomer_name: Neha Kapoor\ncustomer_email: neha@example.com\nproduct_id: P1005\nproduct_name: Running Shoes\ncategory: Fashion\nquantity: 1\nunit_price_inr: 2299\ndiscount_inr: 200\nshipping_fee_inr: 49\ntotal_amount_inr: 2148\norder_date: 2026-08-16\norder_status: Processing\npayment_method: Net Banking\npayment_status: Paid\ndelivery_city: Noida\nestimated_delivery_date: 2026-08-24\nactual_delivery_date: \ntracking_id: TRK96637649\nreturn_eligible: No\nsupport_notes: Order is being prepared",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 27
+        }
+    },
+    {
+        "chunk_id": 29,
+        "page_content": "order_id: ORD20260029\ncustomer_id: CUST1005\ncustomer_name: Vikram Gupta\ncustomer_email: vikram@example.com\nproduct_id: P1008\nproduct_name: LED Study Lamp\ncategory: Home & Kitchen\nquantity: 2\nunit_price_inr: 1199\ndiscount_inr: 0\nshipping_fee_inr: 0\ntotal_amount_inr: 2398\norder_date: 2026-08-30\norder_status: Returned\npayment_method: UPI\npayment_status: Refunded\ndelivery_city: Delhi\nestimated_delivery_date: 2026-09-06\nactual_delivery_date: 2026-09-05\ntracking_id: TRK38609087\nreturn_eligible: No\nsupport_notes: Return received and refund processed",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 28
+        }
+    },
+    {
+        "chunk_id": 30,
+        "page_content": "order_id: ORD20260030\ncustomer_id: CUST1005\ncustomer_name: Vikram Gupta\ncustomer_email: vikram@example.com\nproduct_id: P1003\nproduct_name: Smart Fitness Band\ncategory: Wearables\nquantity: 2\nunit_price_inr: 1999\ndiscount_inr: 0\nshipping_fee_inr: 0\ntotal_amount_inr: 3998\norder_date: 2026-08-24\norder_status: Processing\npayment_method: Credit Card\npayment_status: Paid\ndelivery_city: Hyderabad\nestimated_delivery_date: 2026-08-31\nactual_delivery_date: \ntracking_id: TRK50603163\nreturn_eligible: No\nsupport_notes: Order is being prepared",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 29
+        }
+    },
+    {
+        "chunk_id": 31,
+        "page_content": "order_id: ORD20260031\ncustomer_id: CUST1001\ncustomer_name: Aarav Sharma\ncustomer_email: aarav@example.com\nproduct_id: P1009\nproduct_name: Smartphone Stand\ncategory: Accessories\nquantity: 2\nunit_price_inr: 499\ndiscount_inr: 200\nshipping_fee_inr: 0\ntotal_amount_inr: 798\norder_date: 2026-08-09\norder_status: Processing\npayment_method: UPI\npayment_status: Paid\ndelivery_city: Delhi\nestimated_delivery_date: 2026-08-17\nactual_delivery_date: \ntracking_id: TRK84252420\nreturn_eligible: No\nsupport_notes: Order is being prepared",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 30
+        }
+    },
+    {
+        "chunk_id": 32,
+        "page_content": "order_id: ORD20260032\ncustomer_id: CUST1003\ncustomer_name: Rohan Mehta\ncustomer_email: rohan@example.com\nproduct_id: P1005\nproduct_name: Running Shoes\ncategory: Fashion\nquantity: 2\nunit_price_inr: 2299\ndiscount_inr: 150\nshipping_fee_inr: 0\ntotal_amount_inr: 4448\norder_date: 2026-09-15\norder_status: Processing\npayment_method: Credit Card\npayment_status: Paid\ndelivery_city: Jaipur\nestimated_delivery_date: 2026-09-22\nactual_delivery_date: \ntracking_id: TRK75569635\nreturn_eligible: No\nsupport_notes: Order is being prepared",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 31
+        }
+    },
+    {
+        "chunk_id": 33,
+        "page_content": "order_id: ORD20260033\ncustomer_id: CUST1005\ncustomer_name: Vikram Gupta\ncustomer_email: vikram@example.com\nproduct_id: P1001\nproduct_name: Wireless Bluetooth Headphones\ncategory: Electronics\nquantity: 1\nunit_price_inr: 2499\ndiscount_inr: 200\nshipping_fee_inr: 79\ntotal_amount_inr: 2378\norder_date: 2026-08-18\norder_status: Delivered\npayment_method: Debit Card\npayment_status: Paid\ndelivery_city: Noida\nestimated_delivery_date: 2026-08-26\nactual_delivery_date: 2026-08-20\ntracking_id: TRK45159040\nreturn_eligible: Yes\nsupport_notes: Order delivered successfully",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 32
+        }
+    },
+    {
+        "chunk_id": 34,
+        "page_content": "order_id: ORD20260034\ncustomer_id: CUST1003\ncustomer_name: Rohan Mehta\ncustomer_email: rohan@example.com\nproduct_id: P1008\nproduct_name: LED Study Lamp\ncategory: Home & Kitchen\nquantity: 3\nunit_price_inr: 1199\ndiscount_inr: 200\nshipping_fee_inr: 79\ntotal_amount_inr: 3476\norder_date: 2026-09-05\norder_status: Delivered\npayment_method: UPI\npayment_status: Paid\ndelivery_city: Noida\nestimated_delivery_date: 2026-09-12\nactual_delivery_date: 2026-09-07\ntracking_id: TRK14835614\nreturn_eligible: Yes\nsupport_notes: Order delivered successfully",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 33
+        }
+    },
+    {
+        "chunk_id": 35,
+        "page_content": "order_id: ORD20260035\ncustomer_id: CUST1006\ncustomer_name: Neha Kapoor\ncustomer_email: neha@example.com\nproduct_id: P1010\nproduct_name: USB-C Fast Charger\ncategory: Electronics\nquantity: 3\nunit_price_inr: 1299\ndiscount_inr: 0\nshipping_fee_inr: 79\ntotal_amount_inr: 3976\norder_date: 2026-08-09\norder_status: Delivered\npayment_method: Debit Card\npayment_status: Paid\ndelivery_city: Ghaziabad\nestimated_delivery_date: 2026-08-14\nactual_delivery_date: 2026-08-13\ntracking_id: TRK38195995\nreturn_eligible: Yes\nsupport_notes: Order delivered successfully",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 34
+        }
+    },
+    {
+        "chunk_id": 36,
+        "page_content": "order_id: ORD20260036\ncustomer_id: CUST1004\ncustomer_name: Ananya Singh\ncustomer_email: ananya@example.com\nproduct_id: P1002\nproduct_name: Mechanical Keyboard\ncategory: Electronics\nquantity: 2\nunit_price_inr: 3499\ndiscount_inr: 150\nshipping_fee_inr: 79\ntotal_amount_inr: 6927\norder_date: 2026-09-09\norder_status: Shipped\npayment_method: Credit Card\npayment_status: Paid\ndelivery_city: Noida\nestimated_delivery_date: 2026-09-13\nactual_delivery_date: \ntracking_id: TRK65337219\nreturn_eligible: No\nsupport_notes: Shipment in transit",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 35
+        }
+    },
+    {
+        "chunk_id": 37,
+        "page_content": "order_id: ORD20260037\ncustomer_id: CUST1001\ncustomer_name: Aarav Sharma\ncustomer_email: aarav@example.com\nproduct_id: P1003\nproduct_name: Smart Fitness Band\ncategory: Wearables\nquantity: 3\nunit_price_inr: 1999\ndiscount_inr: 50\nshipping_fee_inr: 79\ntotal_amount_inr: 6026\norder_date: 2026-09-12\norder_status: Shipped\npayment_method: Debit Card\npayment_status: Paid\ndelivery_city: Noida\nestimated_delivery_date: 2026-09-20\nactual_delivery_date: \ntracking_id: TRK24508349\nreturn_eligible: No\nsupport_notes: Shipment in transit",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 36
+        }
+    },
+    {
+        "chunk_id": 38,
+        "page_content": "order_id: ORD20260038\ncustomer_id: CUST1007\ncustomer_name: Aditya Joshi\ncustomer_email: aditya@example.com\nproduct_id: P1001\nproduct_name: Wireless Bluetooth Headphones\ncategory: Electronics\nquantity: 2\nunit_price_inr: 2499\ndiscount_inr: 0\nshipping_fee_inr: 0\ntotal_amount_inr: 4998\norder_date: 2026-08-30\norder_status: Processing\npayment_method: Debit Card\npayment_status: Paid\ndelivery_city: Lucknow\nestimated_delivery_date: 2026-09-03\nactual_delivery_date: \ntracking_id: TRK13176186\nreturn_eligible: No\nsupport_notes: Order is being prepared",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 37
+        }
+    },
+    {
+        "chunk_id": 39,
+        "page_content": "order_id: ORD20260039\ncustomer_id: CUST1004\ncustomer_name: Ananya Singh\ncustomer_email: ananya@example.com\nproduct_id: P1007\nproduct_name: Laptop Backpack\ncategory: Accessories\nquantity: 2\nunit_price_inr: 1499\ndiscount_inr: 50\nshipping_fee_inr: 0\ntotal_amount_inr: 2948\norder_date: 2026-09-19\norder_status: Processing\npayment_method: Debit Card\npayment_status: Paid\ndelivery_city: Bengaluru\nestimated_delivery_date: 2026-09-27\nactual_delivery_date: \ntracking_id: TRK81969657\nreturn_eligible: No\nsupport_notes: Order is being prepared",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 38
+        }
+    },
+    {
+        "chunk_id": 40,
+        "page_content": "order_id: ORD20260040\ncustomer_id: CUST1006\ncustomer_name: Neha Kapoor\ncustomer_email: neha@example.com\nproduct_id: P1001\nproduct_name: Wireless Bluetooth Headphones\ncategory: Electronics\nquantity: 1\nunit_price_inr: 2499\ndiscount_inr: 50\nshipping_fee_inr: 0\ntotal_amount_inr: 2449\norder_date: 2026-09-07\norder_status: Processing\npayment_method: UPI\npayment_status: Paid\ndelivery_city: Delhi\nestimated_delivery_date: 2026-09-14\nactual_delivery_date: \ntracking_id: TRK68326160\nreturn_eligible: No\nsupport_notes: Order is being prepared",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 39
+        }
+    },
+    {
+        "chunk_id": 41,
+        "page_content": "order_id: ORD20260041\ncustomer_id: CUST1006\ncustomer_name: Neha Kapoor\ncustomer_email: neha@example.com\nproduct_id: P1006\nproduct_name: Stainless Steel Water Bottle\ncategory: Home & Kitchen\nquantity: 2\nunit_price_inr: 699\ndiscount_inr: 150\nshipping_fee_inr: 0\ntotal_amount_inr: 1248\norder_date: 2026-08-25\norder_status: Returned\npayment_method: Debit Card\npayment_status: Refunded\ndelivery_city: Ghaziabad\nestimated_delivery_date: 2026-09-02\nactual_delivery_date: 2026-08-28\ntracking_id: TRK68526649\nreturn_eligible: No\nsupport_notes: Return received and refund processed",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 40
+        }
+    },
+    {
+        "chunk_id": 42,
+        "page_content": "order_id: ORD20260042\ncustomer_id: CUST1001\ncustomer_name: Aarav Sharma\ncustomer_email: aarav@example.com\nproduct_id: P1009\nproduct_name: Smartphone Stand\ncategory: Accessories\nquantity: 3\nunit_price_inr: 499\ndiscount_inr: 200\nshipping_fee_inr: 0\ntotal_amount_inr: 1297\norder_date: 2026-08-24\norder_status: Cancelled\npayment_method: UPI\npayment_status: Refunded\ndelivery_city: Pune\nestimated_delivery_date: 2026-08-31\nactual_delivery_date: \ntracking_id: \nreturn_eligible: No\nsupport_notes: Order cancelled and refund initiated",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 41
+        }
+    },
+    {
+        "chunk_id": 43,
+        "page_content": "order_id: ORD20260043\ncustomer_id: CUST1006\ncustomer_name: Neha Kapoor\ncustomer_email: neha@example.com\nproduct_id: P1002\nproduct_name: Mechanical Keyboard\ncategory: Electronics\nquantity: 3\nunit_price_inr: 3499\ndiscount_inr: 50\nshipping_fee_inr: 49\ntotal_amount_inr: 10496\norder_date: 2026-09-12\norder_status: Cancelled\npayment_method: Debit Card\npayment_status: Refunded\ndelivery_city: Bengaluru\nestimated_delivery_date: 2026-09-20\nactual_delivery_date: \ntracking_id: \nreturn_eligible: No\nsupport_notes: Order cancelled and refund initiated",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 42
+        }
+    },
+    {
+        "chunk_id": 44,
+        "page_content": "order_id: ORD20260044\ncustomer_id: CUST1005\ncustomer_name: Vikram Gupta\ncustomer_email: vikram@example.com\nproduct_id: P1009\nproduct_name: Smartphone Stand\ncategory: Accessories\nquantity: 1\nunit_price_inr: 499\ndiscount_inr: 0\nshipping_fee_inr: 79\ntotal_amount_inr: 578\norder_date: 2026-09-12\norder_status: Cancelled\npayment_method: Credit Card\npayment_status: Refunded\ndelivery_city: Jaipur\nestimated_delivery_date: 2026-09-18\nactual_delivery_date: \ntracking_id: \nreturn_eligible: No\nsupport_notes: Order cancelled and refund initiated",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 43
+        }
+    },
+    {
+        "chunk_id": 45,
+        "page_content": "order_id: ORD20260045\ncustomer_id: CUST1001\ncustomer_name: Aarav Sharma\ncustomer_email: aarav@example.com\nproduct_id: P1005\nproduct_name: Running Shoes\ncategory: Fashion\nquantity: 2\nunit_price_inr: 2299\ndiscount_inr: 0\nshipping_fee_inr: 79\ntotal_amount_inr: 4677\norder_date: 2026-09-20\norder_status: Returned\npayment_method: Debit Card\npayment_status: Refunded\ndelivery_city: Hyderabad\nestimated_delivery_date: 2026-09-26\nactual_delivery_date: 2026-09-26\ntracking_id: TRK69345683\nreturn_eligible: No\nsupport_notes: Return received and refund processed",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 44
+        }
+    },
+    {
+        "chunk_id": 46,
+        "page_content": "order_id: ORD20260046\ncustomer_id: CUST1004\ncustomer_name: Ananya Singh\ncustomer_email: ananya@example.com\nproduct_id: P1009\nproduct_name: Smartphone Stand\ncategory: Accessories\nquantity: 2\nunit_price_inr: 499\ndiscount_inr: 200\nshipping_fee_inr: 0\ntotal_amount_inr: 798\norder_date: 2026-09-12\norder_status: Delivered\npayment_method: Cash on Delivery\npayment_status: Paid\ndelivery_city: Pune\nestimated_delivery_date: 2026-09-15\nactual_delivery_date: 2026-09-16\ntracking_id: TRK41523529\nreturn_eligible: Yes\nsupport_notes: Order delivered successfully",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 45
+        }
+    },
+    {
+        "chunk_id": 47,
+        "page_content": "order_id: ORD20260047\ncustomer_id: CUST1005\ncustomer_name: Vikram Gupta\ncustomer_email: vikram@example.com\nproduct_id: P1004\nproduct_name: Cotton Casual T-Shirt\ncategory: Fashion\nquantity: 1\nunit_price_inr: 799\ndiscount_inr: 0\nshipping_fee_inr: 0\ntotal_amount_inr: 799\norder_date: 2026-08-03\norder_status: Shipped\npayment_method: Net Banking\npayment_status: Paid\ndelivery_city: Delhi\nestimated_delivery_date: 2026-08-09\nactual_delivery_date: \ntracking_id: TRK65625330\nreturn_eligible: No\nsupport_notes: Shipment in transit",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 46
+        }
+    },
+    {
+        "chunk_id": 48,
+        "page_content": "order_id: ORD20260048\ncustomer_id: CUST1004\ncustomer_name: Ananya Singh\ncustomer_email: ananya@example.com\nproduct_id: P1007\nproduct_name: Laptop Backpack\ncategory: Accessories\nquantity: 2\nunit_price_inr: 1499\ndiscount_inr: 100\nshipping_fee_inr: 0\ntotal_amount_inr: 2898\norder_date: 2026-08-10\norder_status: Delivered\npayment_method: Net Banking\npayment_status: Paid\ndelivery_city: Lucknow\nestimated_delivery_date: 2026-08-14\nactual_delivery_date: 2026-08-12\ntracking_id: TRK79519112\nreturn_eligible: Yes\nsupport_notes: Order delivered successfully",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 47
+        }
+    },
+    {
+        "chunk_id": 49,
+        "page_content": "order_id: ORD20260049\ncustomer_id: CUST1008\ncustomer_name: Ishita Rao\ncustomer_email: ishita@example.com\nproduct_id: P1001\nproduct_name: Wireless Bluetooth Headphones\ncategory: Electronics\nquantity: 3\nunit_price_inr: 2499\ndiscount_inr: 0\nshipping_fee_inr: 0\ntotal_amount_inr: 7497\norder_date: 2026-08-30\norder_status: Shipped\npayment_method: Net Banking\npayment_status: Paid\ndelivery_city: Pune\nestimated_delivery_date: 2026-09-05\nactual_delivery_date: \ntracking_id: TRK92228802\nreturn_eligible: No\nsupport_notes: Shipment in transit",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 48
+        }
+    },
+    {
+        "chunk_id": 50,
+        "page_content": "order_id: ORD20260050\ncustomer_id: CUST1007\ncustomer_name: Aditya Joshi\ncustomer_email: aditya@example.com\nproduct_id: P1009\nproduct_name: Smartphone Stand\ncategory: Accessories\nquantity: 2\nunit_price_inr: 499\ndiscount_inr: 0\nshipping_fee_inr: 79\ntotal_amount_inr: 1077\norder_date: 2026-08-29\norder_status: Processing\npayment_method: Credit Card\npayment_status: Paid\ndelivery_city: Jaipur\nestimated_delivery_date: 2026-09-05\nactual_delivery_date: \ntracking_id: TRK75041510\nreturn_eligible: No\nsupport_notes: Order is being prepared",
+        "metadata": {
+            "source": "c:\\Users\\ranju\\OneDrive\\Documents\\Code_Projects\\LANGGRAPH_Chatbot\\data\\raw\\orders.csv",
+            "row": 49
+        }
+    }
+]

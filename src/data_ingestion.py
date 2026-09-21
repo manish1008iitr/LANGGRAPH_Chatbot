@@ -1,31 +1,30 @@
 import os 
 import pymupdf4llm
-import re
 from pathlib import Path
+from langchain_community.document_loaders import CSVLoader
+import json
 script_dir = Path(__file__).parent
 
-def pdf_to_mark(dir_path:str):
-
-    #Creation of directory 
-    raw_data_path = os.path.join(dir_path,"data","processed")
-    if not os.path.isdir(raw_data_path):
-        os.makedirs(raw_data_path)
-
+def pdf_to_mark(file_path:str):
     #Conversion into markdown file
-    md_text = pymupdf4llm.to_markdown(os.path.join(dir_path,"data","raw","policy.pdf"))
+    md_text = pymupdf4llm.to_markdown(file_path)
+    return md_text
 
-    #Saving markdown file
-    filename = script_dir.parent/ "data"/"processed"/"policy_mark.md"
-    filename.touch(exist_ok=True)
-    with open(filename, "w", encoding="utf-8") as file:
-        file.write(md_text)
-    print("succesfully converted pdf into markdown file and saved it")
+def csv_to_chunk(file_path:str):
+    loader = CSVLoader(
+        file_path = file_path,
+        csv_args={
+            "delimiter": ",",
+            "quotechar": '"'
+        }
+    )
+    chunks = loader.load()
 
-def main():
-    pdf_to_mark(script_dir.parent)
+    return chunks
 
-if __name__ == "__main__":
-    main()
+    with open(filename, "w", encoding="utf-8") as json_file:
+        json.dump(chunks_data, json_file, indent=4, ensure_ascii=False)
+    print("succesfully converted csv into chunks and saved it")
     
 
     

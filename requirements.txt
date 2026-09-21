@@ -1,6 +1,7 @@
-langchain
+langchain_community
 langgraph  
 langchain-ollama
+langchain-chroma
 pandas
 yaml
 pathlib
