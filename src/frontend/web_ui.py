@@ -18,6 +18,10 @@ user_input = st.text_input("")
 if user_input:
     st.write("You asked:", user_input)
     response = response_gen.generate_response(user_input)
-    st.write("Response:", response[-1].content)
+    st.write("Response:", response.key_themes)
+    st.write("Response:", response.summary)
+    st.write("Response:", response.sentiment)
+    st.write("Response:", response.pros)
+    st.write("Response:", response.cons)
 
 
