@@ -3,7 +3,7 @@ import os
 # from pathlib import Path
 # file_dir = Path(__file__).parent
 
-from main import Response_generator
+from llm_calling import Response_generator
 
 response_gen = Response_generator()
 

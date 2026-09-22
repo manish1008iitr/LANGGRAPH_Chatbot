@@ -1,8 +1,7 @@
 langchain_community
 langgraph  
-langchain-ollama
 langchain-chroma
-pandas
+langchain_groq 
 yaml
 pathlib
 streamlit
