@@ -3,7 +3,7 @@ import os
 # from pathlib import Path
 # file_dir = Path(__file__).parent
 
-from src.generator import Response_generator
+from main import Response_generator
 
 response_gen = Response_generator()
 
