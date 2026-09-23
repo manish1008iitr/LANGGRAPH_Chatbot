@@ -16,7 +16,7 @@ def llm():
     )
     return llm
 
-def planner_prompt(template, query ):
+def planner_prompt(template, query):
     prompt = PromptTemplate.from_template(
         template= template
     )

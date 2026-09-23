@@ -1,10 +1,6 @@
 import streamlit as st
 import os 
-# from pathlib import Path
-# file_dir = Path(__file__).parent
-
-from nodes import planner
-from state import query_state
+from graph import workflow
 
 st.set_page_config(
     page_title="SHOPEASE CHATBOT")
@@ -14,7 +10,7 @@ st.title("WELCOME TO SHOPEASE CHATBOT ")
 
 # ***************** TAKING USER INPUT *****************
 user_input = st.text_input("")
-query_state.query = user_input
+result = workflow.invoke({"query":user_input})
 
 
 # ***************** DISPLAYING USER INPUT ****************
@@ -22,5 +18,5 @@ query_state.query = user_input
 if user_input:
     with st.chat_message("user"):
         st.write(user_input)
-    response = planner(query_state)
+    response = result.content
     st.write(response.key_themes)

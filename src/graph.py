@@ -4,7 +4,7 @@ from langgraph.graph.message import add_messages
 
 
 #Import other function from other pages
-from nodes import planner
+from nodes_function import planner
 from state import ChatState
 
 
