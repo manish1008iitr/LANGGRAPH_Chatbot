@@ -2,6 +2,7 @@ langchain_community
 langgraph  
 langchain-chroma
 langchain_groq 
+grandalf==0.8
 yaml
 pathlib
 streamlit

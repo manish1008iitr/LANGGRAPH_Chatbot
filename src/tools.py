@@ -3,7 +3,7 @@ import pymupdf4llm # converting pdf file into markdown
 from pathlib import Path # to ensure that python able to understand the relative path
 from langchain_community.document_loaders import CSVLoader # to convert csv into chunks 
 from langchain_text_splitters import RecursiveCharacterTextSplitter # to do text splittin of markdown file
-from langchain_core.prompts import PromptTemplate # for prompt generation
+
 
 script_dir = Path(__file__).parent # file of parent directory
 
@@ -33,18 +33,7 @@ def chunker_pdf(text):
     chunks = text_splitter.split_text(text)
     return chunks
 
-def planner_prompt(text):
-    prompt = PromptTemplate.from_template(
-        """
-You are a expert in understanding the sentiment of the statement and analyze the text
-And your work is to understand user query and understand the main subject in it. 
-You are strcitly supposed to answer based on the query and not search internet for this
-In you answer choose only among the "product_query", "order_cancellation", "order_status"
-The query is {text}
-"""
-    )
-    formatted_string = prompt.format(text = text)
-    return formatted_string
+
 
 
     

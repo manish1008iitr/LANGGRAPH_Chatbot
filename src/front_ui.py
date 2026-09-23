@@ -3,9 +3,8 @@ import os
 # from pathlib import Path
 # file_dir = Path(__file__).parent
 
-from llm_calling import Response_generator
-
-response_gen = Response_generator()
+from nodes import planner
+from state import query_state
 
 st.set_page_config(
     page_title="SHOPEASE CHATBOT")
@@ -14,7 +13,8 @@ st.title("WELCOME TO SHOPEASE CHATBOT ")
 
 
 # ***************** TAKING USER INPUT *****************
-user_input = st.text_input("")    
+user_input = st.text_input("")
+query_state.query = user_input
 
 
 # ***************** DISPLAYING USER INPUT ****************
@@ -22,11 +22,5 @@ user_input = st.text_input("")
 if user_input:
     with st.chat_message("user"):
         st.write(user_input)
-    response = response_gen.generate_response(user_input)
+    response = planner(query_state)
     st.write(response.key_themes)
-    st.write(response.summary)
-    st.write(response.sentiment)
-    st.write(response.pros)
-    st.write(response.cons)
-
-
