@@ -3,6 +3,9 @@ from state import ChatState
 from llm_loader import llm
 from langchain_core.prompts import PromptTemplate # for prompt generation
 
+#Creating the llm
+llm_local = llm()
+
 def prompt_planner(template, query):
     prompt = PromptTemplate.from_template(
         template= template
@@ -20,8 +23,8 @@ def planner(state:ChatState):
     The query is {text}
     """, question)
 
-    response = llm.invoke(prompt)
-    return {"mains_issue": response.content}
+    response = llm_local.invoke(prompt)
+    return {"main_issue": response.content}
 
 
     
