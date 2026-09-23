@@ -1,8 +1,8 @@
 import streamlit as st
 import os 
-from graph import graph_compiler
-graph = graph_compiler()
-workflow = graph.get_workflow()
+from graph import get_workflow
+# graph = graph_compiler()
+workflow = get_workflow()
 
 st.set_page_config(
     page_title="SHOPEASE CHATBOT")
